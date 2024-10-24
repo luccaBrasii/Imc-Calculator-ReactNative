@@ -5,7 +5,6 @@ const styles = StyleSheet.create({
         backgroundColor: '#ffffff',
         width:'100%',
         height:'100%',
-        bottom: '0',
         alignItems: 'center',
         borderTopLeftRadius: 30,
         borderTopRightRadius: 30,
@@ -31,8 +30,6 @@ const styles = StyleSheet.create({
         paddingLeft: 10
     },
     buttonCalculator:{
-        
-        width: '100%',
         borderRadius: 50,
         alignItems: 'center',
         justifyContent: 'center',
@@ -41,7 +38,7 @@ const styles = StyleSheet.create({
         paddingTop:14,
         paddingBottom: 14,
         marginLeft: 12,
-        margin: 30,
+        margin: 30
     },
 
     textButton:{
@@ -54,6 +51,29 @@ const styles = StyleSheet.create({
          paddingLeft: 18,
          fontWeight: "bold",
          //display: "none"
+    },
+    exibitionResult:{
+        width: '100%',
+        height: '50%'
+    },
+    listImcs:{
+        backgroundColor: "lightgrey",
+        width: '90%',
+        borderTopLeftRadius: 30,
+        borderTopRightRadius: 30,
+        backgroundColor:'#e0e5e5',
+    },
+    resultImcItem:{
+        fontSize: 24,
+        color:'#ff0043',
+        height: 50,
+        width: '100%',
+        fontWeight: "bold",
+        paddingTop: 5
+        
+    },
+    textResultItemList:{
+        fontSize: 18
     }
 })
 
