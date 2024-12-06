@@ -138,7 +138,7 @@ export default function Form(){
               </TouchableOpacity>
             </View>
           }
-
+ 
           <FlatList
             style = {styles.listImcs}
             data={listImc}
@@ -157,6 +157,7 @@ export default function Form(){
             }}
             
           />
+          
         </View>
     )
 } 
